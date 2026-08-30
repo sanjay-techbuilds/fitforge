@@ -1,0 +1,38 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+*/venv/
+*/.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploads / generated files
+uploads/
+backend/uploads/
+
+# ML generated files
+ml-server/venv/
+ml-api/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google credentials
+backend/config/google-credentials.json
+
+# Large frontend video
+frontend/src/assets/hero-video.mp4
+
+# ML generated results
+ml-server/static/results/

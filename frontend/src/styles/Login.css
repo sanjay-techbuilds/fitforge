@@ -1,0 +1,33 @@
+/* FORCE AUTOFILL BACKGROUND TO BE DARK IN DARK MODE 
+  This removes the white box that appears when you select a saved password.
+*/
+
+/* Light Mode Autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: black !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Dark Mode Autofill - Forces background to Black */
+@media (prefers-color-scheme: dark) {
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover, 
+    input:-webkit-autofill:focus, 
+    input:-webkit-autofill:active {
+        -webkit-box-shadow: 0 0 0 30px black inset !important;
+        -webkit-text-fill-color: white !important;
+    }
+}
+
+/* If you use a manual class toggler for dark mode, use this selector too: */
+.dark input:-webkit-autofill,
+.dark input:-webkit-autofill:hover, 
+.dark input:-webkit-autofill:focus, 
+.dark input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: white !important;
+}

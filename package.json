@@ -1,0 +1,19 @@
+{
+  "name": "MERN e-commerce",
+  "version": "1.0.0",
+  "description": "MERN Stack E-Commerce Project",
+  "scripts": {
+    "start": "npm run backend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "author": "HuXn WebDev",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.24"
+  }
+}
