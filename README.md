@@ -56,6 +56,40 @@ The platform includes user authentication, product browsing, category management
 - Personalized size profiles
 - Modern product browsing experience
 
+## Project Screenshots
+
+### Home Page
+
+![FitForge Home Page](screenshots/01-home.png)
+
+### Shop and Product Listing
+
+![FitForge Shop](screenshots/02-shop.png)
+
+### AI-Powered Image Search
+
+![FitForge Image Search](screenshots/03-image-search.png)
+
+### Shopping Cart
+
+![FitForge Shopping Cart](screenshots/04-cart.png)
+
+### Product Details and Size Selection
+
+![FitForge Product Details](screenshots/05-product-details.png)
+
+### Checkout and Order Summary
+
+![FitForge Checkout](screenshots/06-checkout.png)
+
+### Admin Dashboard
+
+![FitForge Admin Dashboard](screenshots/07-admin-dashboard.png)
+
+### Size Profile
+
+![FitForge Size Profile](screenshots/08-size-profile.png)
+
 ## Technology Stack
 
 ### Frontend
