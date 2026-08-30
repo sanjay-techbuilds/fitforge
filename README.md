@@ -1,5 +1,3 @@
-Create a highly professional, polished, GitHub-ready README.md for my project "FitForge".
-
 Project name: FitForge
 Repository: https://github.com/sanjay-techbuilds/fitforge
 
